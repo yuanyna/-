@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <title>沉香</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     html, body {
       margin: 0;
@@ -142,7 +141,9 @@
       }
       .chart-container {
           position: relative;
-          height: 450px;
+          height: 65vh; /* 使用视口高度的60% */
+          min-height: 350px; /* 但最小不低于350像素 */
+          width: 100%;
           margin-bottom: 30px;
       }
       .data-disclaimer {
@@ -351,6 +352,7 @@
   </script>
 </body>
 </html>
+
 
 
 
